@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLLX" Class="TruckDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-5DD10DG\SQLEXPRESS;Initial Catalog=QLLX;Integrated Security=True" SettingsObjectName="TruckManage.Properties.Settings" SettingsPropertyName="QLLXConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TYPE" Member="TYPEs">
+    <Type Name="TYPE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TYPENAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="TYPE_ACCOUNT" Member="ACCOUNTs" ThisKey="ID" OtherKey="TYPEID" Type="ACCOUNT" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[LEVEL]" Member="LEVELs">
+    <Type Name="LEVEL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="LEVEL_ADMINMN" Member="ADMINMNs" ThisKey="ID" OtherKey="IDLEVEL" Type="ADMINMN" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DRIVER" Member="DRIVERs">
+    <Type Name="DRIVER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDCARD" Type="System.String" DbType="NChar(15) NOT NULL" CanBeNull="false" />
+      <Column Name="ADDRESS" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PHONE" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ADMINMN" Member="ADMINMNs">
+    <Type Name="ADMINMN">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NAME" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="IDLEVEL" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="LEVEL_ADMINMN" Member="LEVEL" ThisKey="IDLEVEL" OtherKey="ID" Type="LEVEL" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ACCOUNT" Member="ACCOUNTs">
+    <Type Name="ACCOUNT">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="USERNAME" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="TYPEID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="STATUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TYPE_ACCOUNT" Member="TYPE" ThisKey="TYPEID" OtherKey="ID" Type="TYPE" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

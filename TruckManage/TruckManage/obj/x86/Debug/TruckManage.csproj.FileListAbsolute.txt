@@ -1,0 +1,28 @@
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormHome.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.Menu.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.Properties.Resources.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.csproj.GenerateResource.Cache
+C:\Users\simso\Desktop\TruckManage\TruckManage\bin\Debug\TruckManage.exe.config
+C:\Users\simso\Desktop\TruckManage\TruckManage\bin\Debug\TruckManage.exe
+C:\Users\simso\Desktop\TruckManage\TruckManage\bin\Debug\TruckManage.pdb
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.exe
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.pdb
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormDriver.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.csprojResolveAssemblyReference.cache
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormUpdateInfoDriver.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormSignup.resources
+C:\Users\simso\Desktop\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormChangePass.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\bin\Debug\TruckManage.exe.config
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.exe
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.pdb
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\bin\Debug\TruckManage.exe
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\bin\Debug\TruckManage.pdb
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.csprojResolveAssemblyReference.cache
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormChangePass.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormDriver.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormHome.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormSignup.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.FormUpdateInfoDriver.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.Menu.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.Properties.Resources.resources
+C:\Users\Asus\Downloads\New-folder\New folder\TruckManage\TruckManage\obj\x86\Debug\TruckManage.csproj.GenerateResource.Cache
